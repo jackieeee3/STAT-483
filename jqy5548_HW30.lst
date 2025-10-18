@@ -1,0 +1,341 @@
+
+______________________________________________________________________________________________________
+
+                                         The statin data set
+
+                      SUBJ    GENDER      DIET      DRUG    LDL    HDL    TOTAL
+
+                        1     MALE      LOW FAT      A      132     48     245
+                        1     MALE      LOW FAT      B       86     45     169
+                        1     MALE      LOW FAT      C      105     43     192
+                        2     MALE      LOW FAT      A      119     40     211
+                        2     MALE      LOW FAT      B      145     66     255
+                        2     MALE      LOW FAT      C      117     38     192
+                        3     FEMALE    LOW FAT      A      113     21     204
+                        3     FEMALE    LOW FAT      B       54     25     146
+                        3     FEMALE    LOW FAT      C       92     48     189
+                        4     FEMALE    LOW FAT      A      138     22     228
+                        4     FEMALE    LOW FAT      B       94     47     164
+                        4     FEMALE    LOW FAT      C       94     31     152
+                        5     FEMALE    HIGH FAT     A      138     46     211
+                        5     FEMALE    HIGH FAT     B       97     55     193
+                        5     FEMALE    HIGH FAT     C      141     64     274
+                        6     MALE      HIGH FAT     A      152     54     243
+                        6     MALE      HIGH FAT     B      118     57     234
+                        6     MALE      HIGH FAT     C       99     36     161
+                        7     FEMALE    LOW FAT      A      109     39     179
+                        7     FEMALE    LOW FAT      B       74     55     178
+                        7     FEMALE    LOW FAT      C       94     41     190
+                        8     FEMALE    LOW FAT      A      117     37     201
+                        8     FEMALE    LOW FAT      B       94     57     192
+                        8     FEMALE    LOW FAT      C      122     51     230
+                        9     FEMALE    LOW FAT      A      108     45     223
+                        9     FEMALE    LOW FAT      B       76     64     173
+                        9     FEMALE    LOW FAT      C       74     38     147
+                       10     MALE      HIGH FAT     A      136     30     240
+                       10     MALE      HIGH FAT     B      111     58     248
+                       10     MALE      HIGH FAT     C      131     61     255
+                       11     MALE      LOW FAT      A      139     50     222
+                       11     MALE      LOW FAT      B      121     61     223
+                       11     MALE      LOW FAT      C      110     42     233
+                       12     MALE      LOW FAT      A      120     54     182
+                       12     MALE      LOW FAT      B      127     58     267
+                       12     MALE      LOW FAT      C      127     51     267
+                       13     MALE      LOW FAT      A       97     49     222
+                       13     MALE      LOW FAT      B      123     56     216
+                       13     MALE      LOW FAT      C      120     30     179
+                       14     FEMALE    LOW FAT      A       73     39     143
+                       14     FEMALE    LOW FAT      B       86     30     166
+                       14     FEMALE    LOW FAT      C      117     40     175
+                       15     MALE      LOW FAT      A       88     23     174
+                       15     MALE      LOW FAT      B      107     64     205
+                       15     MALE      LOW FAT      C       70     34     122
+                       16     MALE      LOW FAT      A       95     51     204
+                       16     MALE      LOW FAT      B      113     69     245
+                       16     MALE      LOW FAT      C      107     37     185
+                       17     FEMALE    HIGH FAT     A      155     52     261
+                       17     FEMALE    HIGH FAT     B      115     54     203
+                       17     FEMALE    HIGH FAT     C      124     57     202
+                       18     MALE      LOW FAT      A      119     43     240
+
+______________________________________________________________________________________________________
+
+                                         The statin data set
+
+                      SUBJ    GENDER      DIET      DRUG    LDL    HDL    TOTAL
+
+                       18     MALE      LOW FAT      B      112     42     194
+                       18     MALE      LOW FAT      C      137     53     246
+                       19     MALE      HIGH FAT     A      121     43     233
+                       19     MALE      HIGH FAT     B      109     64     257
+                       19     MALE      HIGH FAT     C      145     43     238
+                       20     FEMALE    LOW FAT      A      103     38     205
+                       20     FEMALE    LOW FAT      B       65     36     143
+                       20     FEMALE    LOW FAT      C      128     58     230
+
+______________________________________________________________________________________________________
+
+                               One-Way Repeated Measures ANOVA for HDL
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+             Class         Levels    Values
+
+             SUBJ              20    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+             DRUG               3    A B C
+
+
+                               Number of Observations Read          60
+                               Number of Observations Used          60
+
+______________________________________________________________________________________________________
+
+                               One-Way Repeated Measures ANOVA for HDL
+
+                                          The GLM Procedure
+
+                                      Dependent Variable: HDL
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                       21     4042.750000      192.511905       1.74    0.0666
+
+         Error                       38     4193.433333      110.353509
+
+         Corrected Total             59     8236.183333
+
+
+                          R-Square     Coeff Var      Root MSE      HDL Mean
+
+                          0.490852      22.64807      10.50493      46.38333
+
+
+         Source                      DF       Type I SS     Mean Square    F Value    Pr > F
+
+         DRUG                         2     1503.233333      751.616667       6.81    0.0030
+         SUBJ                        19     2539.516667      133.658772       1.21    0.2991
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         DRUG                         2     1503.233333      751.616667       6.81    0.0030
+         SUBJ                        19     2539.516667      133.658772       1.21    0.2991
+
+______________________________________________________________________________________________________
+
+                                          Fatstatin Dataset
+
+                                 Obs    SUBJ    hdl1    hdl2    hdl3
+
+                                   1      1      48      45      43
+                                   2      2      40      66      38
+                                   3      3      21      25      48
+                                   4      4      22      47      31
+                                   5      5      46      55      64
+                                   6      6      54      57      36
+                                   7      7      39      55      41
+                                   8      8      37      57      51
+                                   9      9      45      64      38
+                                  10     10      30      58      61
+                                  11     11      50      61      42
+                                  12     12      54      58      51
+                                  13     13      49      56      30
+                                  14     14      39      30      40
+                                  15     15      23      64      34
+                                  16     16      51      69      37
+                                  17     17      52      54      57
+                                  18     18      43      42      53
+                                  19     19      43      64      43
+                                  20     20      38      36      58
+
+______________________________________________________________________________________________________
+
+                      Repeated Measures ANOVA with Pairwise Comparisons for HDL
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+             Class         Levels    Values
+
+             SUBJ              20    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+
+                               Number of Observations Read          20
+                               Number of Observations Used          20
+
+______________________________________________________________________________________________________
+
+                      Repeated Measures ANOVA with Pairwise Comparisons for HDL
+
+                                          The GLM Procedure
+                                Repeated Measures Analysis of Variance
+
+                                  Repeated Measures Level Information
+
+                           Dependent Variable        hdl1     hdl2     hdl3
+
+                                Level of DRUG           1        2        3
+
+
+               Partial Correlation Coefficients from the Error SSCP Matrix / Prob > |r|
+
+                         DF = 19           hdl1           hdl2           hdl3
+
+                         hdl1          1.000000       0.364065       0.061570
+                                                        0.1146         0.7965
+
+                         hdl2          0.364065       1.000000      -0.236475
+                                         0.1146                        0.3155
+
+                         hdl3          0.061570      -0.236475       1.000000
+                                         0.7965         0.3155
+
+
+                                         E = Error SSCP Matrix
+
+               DRUG_N represents the contrast between the nth level of DRUG and the last
+
+                                                DRUG_1       DRUG_2
+
+                                   DRUG_1       3714.8       3207.2
+                                   DRUG_2       3207.2       5782.5
+
+
+                  Partial Correlation Coefficients from the Error SSCP Matrix of the
+                    Variables Defined by the Specified Transformation / Prob > |r|
+
+                                DF = 19         DRUG_1         DRUG_2
+
+                                DRUG_1        1.000000       0.691988
+                                                               0.0007
+
+                                DRUG_2        0.691988       1.000000
+                                                0.0007
+
+
+                                           Sphericity Tests
+
+                                                  Mauchly's
+               Variables                    DF    Criterion    Chi-Square    Pr > ChiSq
+
+               Transformed Variates          2    0.4964491     12.604937        0.0018
+               Orthogonal Components         2    0.8488264     2.9502104        0.2288
+
+______________________________________________________________________________________________________
+
+                      Repeated Measures ANOVA with Pairwise Comparisons for HDL
+
+                                          The GLM Procedure
+                                Repeated Measures Analysis of Variance
+
+           MANOVA Test Criteria and Exact F Statistics for the Hypothesis of no DRUG Effect
+                                  H = Type III SSCP Matrix for DRUG
+                                        E = Error SSCP Matrix
+
+                                          S=1    M=0    N=8
+
+           Statistic                        Value    F Value    Num DF    Den DF    Pr > F
+
+           Wilks' Lambda               0.51517724       8.47         2        18    0.0026
+           Pillai's Trace              0.48482276       8.47         2        18    0.0026
+           Hotelling-Lawley Trace      0.94107954       8.47         2        18    0.0026
+           Roy's Greatest Root         0.94107954       8.47         2        18    0.0026
+
+______________________________________________________________________________________________________
+
+                      Repeated Measures ANOVA with Pairwise Comparisons for HDL
+
+                                          The GLM Procedure
+                                Repeated Measures Analysis of Variance
+                      Univariate Tests of Hypotheses for Within Subject Effects
+
+                                                                                       Adj Pr > F
+   Source                     DF    Type III SS    Mean Square   F Value   Pr > F    G - G    H - F
+
+   DRUG                        2    1503.233333     751.616667      6.81   0.0030   0.0047   0.0035
+   Error(DRUG)                38    4193.433333     110.353509
+
+
+                                 Greenhouse-Geisser Epsilon    0.8687
+                                 Huynh-Feldt Epsilon           0.9485
+
+______________________________________________________________________________________________________
+
+                      Repeated Measures ANOVA with Pairwise Comparisons for HDL
+
+                                          The GLM Procedure
+                                Repeated Measures Analysis of Variance
+                              Analysis of Variance of Contrast Variables
+
+              DRUG_N represents the contrast between the nth level of DRUG and the last
+
+                                      Contrast Variable: DRUG_1
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         Mean                         1      259.200000      259.200000       1.33    0.2639
+         Error                       19     3714.800000      195.515789
+
+
+                                      Contrast Variable: DRUG_2
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         Mean                         1     1394.450000     1394.450000       4.58    0.0455
+         Error                       19     5782.550000      304.344737
+
+______________________________________________________________________________________________________
+
+                     Two-Way Repeated Measures ANOVA for HDL with GENDER and DRUG
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+             Class         Levels    Values
+
+             SUBJ              20    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+             GENDER             2    FEMALE MALE
+
+             DRUG               3    A B C
+
+
+                               Number of Observations Read          60
+                               Number of Observations Used          60
+
+______________________________________________________________________________________________________
+
+                     Two-Way Repeated Measures ANOVA for HDL with GENDER and DRUG
+
+                                          The GLM Procedure
+
+                                      Dependent Variable: HDL
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                        5     2450.688384      490.137677       4.57    0.0015
+
+         Error                       54     5785.494949      107.138795
+
+         Corrected Total             59     8236.183333
+
+
+                          R-Square     Coeff Var      Root MSE      HDL Mean
+
+                          0.297551      22.31575      10.35079      46.38333
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         GENDER                       1      261.786027      261.786027       2.44    0.1239
+         DRUG                         2     1395.469024      697.734512       6.51    0.0029
+         GENDER*DRUG                  2      685.669024      342.834512       3.20    0.0486

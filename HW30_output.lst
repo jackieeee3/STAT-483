@@ -1,0 +1,288 @@
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                                    Class Level Information
+
+                          Class         Levels    Values
+
+                          SUBJ              20    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+                          DRUG               3    A B C
+
+
+                                            Number of Observations Read          60
+                                            Number of Observations Used          60
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                                  Dependent Variable: HDL
+
+                                                              Sum of
+                      Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+                      Model                       21     4042.750000      192.511905       1.74    0.0666
+
+                      Error                       38     4193.433333      110.353509
+
+                      Corrected Total             59     8236.183333
+
+
+                                      R-Square     Coeff Var      Root MSE      HDL Mean
+
+                                      0.490852      22.64807      10.50493      46.38333
+
+
+                      Source                      DF       Type I SS     Mean Square    F Value    Pr > F
+
+                      SUBJ                        19     2539.516667      133.658772       1.21    0.2991
+                      DRUG                         2     1503.233333      751.616667       6.81    0.0030
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      SUBJ                        19     2539.516667      133.658772       1.21    0.2991
+                      DRUG                         2     1503.233333      751.616667       6.81    0.0030
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+
+                                            Number of Observations Read          20
+                                            Number of Observations Used          20
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+
+                                              Repeated Measures Level Information
+
+                                       Dependent Variable        HDL1     HDL2     HDL3
+
+                                            Level of DRUG           1        2        3
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+                                   Univariate Tests of Hypotheses for Within Subject Effects
+
+                                                                                                      Adj Pr > F
+            Source                      DF     Type III SS     Mean Square    F Value    Pr > F     G - G     H - F
+
+            DRUG                         2     1503.233333      751.616667       6.81    0.0030    0.0047    0.0035
+            Error(DRUG)                 38     4193.433333      110.353509
+
+
+                                             Greenhouse-Geisser Epsilon    0.8687
+                                             Huynh-Feldt Epsilon           0.9485
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+                                          Analysis of Variance of Contrast Variables
+
+                           DRUG_N represents the contrast between the nth level of DRUG and the 1st
+
+                                                   Contrast Variable: DRUG_2
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      Mean                         1     2856.050000     2856.050000      17.60    0.0005
+                      Error                       19     3082.950000      162.260526
+
+
+                                                   Contrast Variable: DRUG_3
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      Mean                         1      259.200000      259.200000       1.33    0.2639
+                      Error                       19     3714.800000      195.515789
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+
+                                              Repeated Measures Level Information
+
+                                       Dependent Variable        HDL1     HDL2     HDL3
+
+                                            Level of DRUG           1        2        3
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+                                   Univariate Tests of Hypotheses for Within Subject Effects
+
+                                                                                                      Adj Pr > F
+            Source                      DF     Type III SS     Mean Square    F Value    Pr > F     G - G     H - F
+
+            DRUG                         2     1503.233333      751.616667       6.81    0.0030    0.0047    0.0035
+            Error(DRUG)                 38     4193.433333      110.353509
+
+
+                                             Greenhouse-Geisser Epsilon    0.8687
+                                             Huynh-Feldt Epsilon           0.9485
+
+...............................................................................................................................
+
+                                            One-way Repeated Measure ANOVA for HDL
+                                                   Using Repeated Statement
+
+                                                       The GLM Procedure
+                                            Repeated Measures Analysis of Variance
+                                          Analysis of Variance of Contrast Variables
+
+                           DRUG_N represents the contrast between the nth level of DRUG and the 2nd
+
+                                                   Contrast Variable: DRUG_1
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      Mean                         1     2856.050000     2856.050000      17.60    0.0005
+                      Error                       19     3082.950000      162.260526
+
+
+                                                   Contrast Variable: DRUG_3
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      Mean                         1     1394.450000     1394.450000       4.58    0.0455
+                      Error                       19     5782.550000      304.344737
+
+...............................................................................................................................
+
+                                            Two-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                                    Class Level Information
+
+                          Class         Levels    Values
+
+                          SUBJ              20    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+                          DRUG               3    A B C
+
+                          GENDER             2    FEMALE MALE
+
+
+                                            Number of Observations Read          60
+                                            Number of Observations Used          60
+
+...............................................................................................................................
+
+                                            Two-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                                  Dependent Variable: HDL
+
+                                                              Sum of
+                      Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+                      Model                       59     8236.183333      139.596328        .       .
+
+                      Error                        0        0.000000         .
+
+                      Corrected Total             59     8236.183333
+
+
+                                      R-Square     Coeff Var      Root MSE      HDL Mean
+
+                                      1.000000           .               .      46.38333
+
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      SUBJ(GENDER)                18     2277.730640      126.540591        .       .
+                      DRUG                         2     1405.866444      702.933222        .       .
+                      GENDER                       1      261.786027      261.786027        .       .
+                      DRUG*GENDER                  2      685.669024      342.834512        .       .
+                      SUBJ*DRUG(GENDER)           36     3507.764310       97.437897        .       .
+
+...............................................................................................................................
+
+                                            Two-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                       Level of            -------------HDL-------------
+                                       GENDER        N             Mean          Std Dev
+
+                                       FEMALE       27       44.0740741       12.1177744
+                                       MALE         33       48.2727273       11.3970191
+
+
+                                       Level of            -------------HDL-------------
+                                       DRUG          N             Mean          Std Dev
+
+                                       A            20       41.2000000       10.3649206
+                                       B            20       53.1500000       12.0842438
+                                       C            20       44.8000000       10.0451612
+
+
+                                Level of     Level of            -------------HDL-------------
+                                DRUG         GENDER        N             Mean          Std Dev
+
+                                A            FEMALE        9       37.6666667       10.3440804
+                                A            MALE         11       44.0909091        9.9040855
+                                B            FEMALE        9       47.0000000       13.5092561
+                                B            MALE         11       58.1818182        8.3404818
+                                C            FEMALE        9       47.5555556       10.8755587
+                                C            MALE         11       42.5454545        9.2017785
+
+...............................................................................................................................
+
+                                            Two-way Repeated Measure ANOVA for HDL
+
+                                                       The GLM Procedure
+
+                                                  Dependent Variable: HDL
+
+                          Tests of Hypotheses Using the Type III MS for SUBJ(GENDER) as an Error Term
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      GENDER                       1     261.7860269     261.7860269       2.07    0.1675
+
+
+                       Tests of Hypotheses Using the Type III MS for SUBJ*DRUG(GENDER) as an Error Term
+
+                      Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+                      DRUG                         2     1405.866444      702.933222       7.21    0.0023
+                      DRUG*GENDER                  2      685.669024      342.834512       3.52    0.0402
