@@ -1,0 +1,420 @@
+
+______________________________________________________________________________________________________
+
+                                           Cholesterol Data
+
+                                         Obs    TREAT    CVAL
+
+                                           1      A       220
+                                           2      A       190
+                                           3      A       180
+                                           4      A       185
+                                           5      A       210
+                                           6      A       170
+                                           7      A       178
+                                           8      A       200
+                                           9      A       177
+                                          10      A       189
+                                          11      B       160
+                                          12      B       168
+                                          13      B       178
+                                          14      B       200
+                                          15      B       172
+                                          16      B       155
+                                          17      B       159
+                                          18      B       167
+                                          19      B       185
+                                          20      B       199
+                                          21      P       240
+                                          22      P       220
+                                          23      P       246
+                                          24      P       244
+                                          25      P       198
+                                          26      P       238
+                                          27      P       277
+                                          28      P       255
+                                          29      P       190
+                                          30      P       188
+
+______________________________________________________________________________________________________
+
+                                     Analysis of Cholesterol Data
+
+                                         The ANOVA Procedure
+
+                                       Class Level Information
+
+                                    Class         Levels    Values
+
+                                    TREAT              3    A B P
+
+
+                               Number of Observations Read          30
+                               Number of Observations Used          30
+
+______________________________________________________________________________________________________
+
+                                     Analysis of Cholesterol Data
+
+                                         The ANOVA Procedure
+
+                                     Dependent Variable: CVAL
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                        2     16258.46667      8129.23333      17.58    <.0001
+
+         Error                       27     12483.40000       462.34815
+
+         Corrected Total             29     28741.86667
+
+
+                          R-Square     Coeff Var      Root MSE     CVAL Mean
+
+                          0.565672      10.86340      21.50228      197.9333
+
+
+         Source                      DF        Anova SS     Mean Square    F Value    Pr > F
+
+         TREAT                        2     16258.46667      8129.23333      17.58    <.0001
+
+______________________________________________________________________________________________________
+
+                                     Analysis of Cholesterol Data
+
+                                         The ANOVA Procedure
+
+                                  Student-Newman-Keuls Test for CVAL
+
+NOTE: This test controls the Type I experimentwise error rate under the complete null hypothesis but
+                                  not under partial null hypotheses.
+
+
+                                  Alpha                        0.05
+                                  Error Degrees of Freedom       27
+                                  Error Mean Square        462.3481
+
+
+                            Number of Means              2              3
+                            Critical Range       19.730539      23.841676
+
+
+                     Means with the same letter are not significantly different.
+
+
+                        SNK Grouping          Mean      N    TREAT
+
+                                   A       229.600     10    P
+
+                                   B       189.900     10    A
+                                   B
+                                   B       174.300     10    B
+
+______________________________________________________________________________________________________
+
+                                   Two-Way ANOVA of Depression Data
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+                               Class         Levels    Values
+
+                               group              2    Deficien Normal
+
+                               trt                2    Drug Placebo
+
+
+                               Number of Observations Read          16
+                               Number of Observations Used          16
+
+______________________________________________________________________________________________________
+
+                                   Two-Way ANOVA of Depression Data
+
+                                          The GLM Procedure
+
+                                     Dependent Variable: score
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                        3     73.18750000     24.39583333      17.48    0.0001
+
+         Error                       12     16.75000000      1.39583333
+
+         Corrected Total             15     89.93750000
+
+
+                          R-Square     Coeff Var      Root MSE    score Mean
+
+                          0.813760      14.00242      1.181454      8.437500
+
+
+         Source                      DF       Type I SS     Mean Square    F Value    Pr > F
+
+         group                        1      0.06250000      0.06250000       0.04    0.8360
+         trt                          1      5.06250000      5.06250000       3.63    0.0811
+         group*trt                    1     68.06250000     68.06250000      48.76    <.0001
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         group                        1      0.06250000      0.06250000       0.04    0.8360
+         trt                          1      5.06250000      5.06250000       3.63    0.0811
+         group*trt                    1     68.06250000     68.06250000      48.76    <.0001
+
+______________________________________________________________________________________________________
+
+                                         The co_vary data set
+
+                                    GROUP    SUBJ     IQ    SCORE
+
+                                      A        1     134     199
+                                      B        2     125     210
+                                      A        3     134     203
+                                      B        4     116     196
+                                      A        5     128     207
+                                      B        6     126     185
+                                      A        7     135     196
+                                      B        8     119     199
+                                      A        9     137     208
+                                      B       10     109     195
+                                      A       11     144     220
+                                      B       12     111     195
+                                      A       13     132     186
+                                      B       14     103     181
+                                      A       15     120     192
+                                      B       16     113     183
+                                      A       17     129     179
+                                      B       18     118     193
+                                      A       19     149     206
+                                      B       20     113     180
+                                      A       21     121     169
+                                      B       22     122     195
+                                      A       23     130     179
+                                      B       24     101     191
+                                      A       25     130     201
+                                      B       26     112     193
+                                      A       27     135     210
+                                      B       28     133     202
+                                      A       29     154     185
+                                      B       30     123     203
+                                      A       31     124     190
+                                      B       32     120     191
+                                      A       33     124     164
+                                      B       34     110     190
+                                      A       35     110     176
+                                      B       36     125     201
+                                      A       37     135     200
+                                      B       38     149     215
+                                      A       39     141     203
+                                      B       40     141     196
+
+______________________________________________________________________________________________________
+
+                                       IQ vs. Score Correlation
+
+                                          The CORR Procedure
+
+                                   2  Variables:    IQ       SCORE
+
+
+                              Pearson Correlation Coefficients, N = 40
+                                     Prob > |r| under H0: Rho=0
+
+                                                   IQ         SCORE
+
+                                  IQ          1.00000       0.45612
+                                                             0.0031
+
+                                  SCORE       0.45612       1.00000
+                                               0.0031
+
+______________________________________________________________________________________________________
+
+                                         IQ and Score T-tests
+
+                                         The TTEST Procedure
+
+                                            Variable:  IQ
+
+    GROUP         Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+    A                               20       132.3     10.1727      2.2747       110.0       154.0
+    B                               20       119.5     11.8742      2.6552       101.0       149.0
+    Diff (1-2)    Pooled                   12.8500     11.0563      3.4963
+    Diff (1-2)    Satterthwaite            12.8500                  3.4963
+
+    GROUP         Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+    A                                 132.3       127.5    137.1     10.1727      7.7363  14.8580
+    B                                 119.5       113.9    125.0     11.8742      9.0302  17.3432
+    Diff (1-2)    Pooled            12.8500      5.7721  19.9279     11.0563      9.0357  14.2491
+    Diff (1-2)    Satterthwaite     12.8500      5.7666  19.9334
+
+                     Method           Variances        DF    t Value    Pr > |t|
+
+                     Pooled           Equal            38       3.68      0.0007
+                     Satterthwaite    Unequal      37.126       3.68      0.0007
+
+                                        Equality of Variances
+
+                          Method      Num DF    Den DF    F Value    Pr > F
+
+                          Folded F        19        19       1.36    0.5067
+
+
+                                           Variable:  SCORE
+
+    GROUP         Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+    A                               20       193.7     14.8298      3.3160       164.0       220.0
+    B                               20       194.7      8.9449      2.0001       180.0       215.0
+    Diff (1-2)    Pooled                   -1.0500     12.2461      3.8726
+    Diff (1-2)    Satterthwaite            -1.0500                  3.8726
+
+    GROUP         Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+    A                                 193.7       186.7    200.6     14.8298     11.2779  21.6600
+    B                                 194.7       190.5    198.9      8.9449      6.8025  13.0646
+    Diff (1-2)    Pooled            -1.0500     -8.8896   6.7896     12.2461     10.0081  15.7825
+    Diff (1-2)    Satterthwaite     -1.0500     -8.9460   6.8460
+
+                     Method           Variances        DF    t Value    Pr > |t|
+
+                     Pooled           Equal            38      -0.27      0.7878
+                     Satterthwaite    Unequal      31.209      -0.27      0.7881
+
+
+______________________________________________________________________________________________________
+
+                                         IQ and Score T-tests
+
+                                         The TTEST Procedure
+
+                                           Variable:  SCORE
+
+                                        Equality of Variances
+
+                          Method      Num DF    Den DF    F Value    Pr > F
+
+                          Folded F        19        19       2.75    0.0330
+
+______________________________________________________________________________________________________
+
+                                        Slope Homogeneity Test
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+                                    Class         Levels    Values
+
+                                    GROUP              2    A B
+
+
+                               Number of Observations Read          40
+                               Number of Observations Used          40
+
+______________________________________________________________________________________________________
+
+                                        Slope Homogeneity Test
+
+                                          The GLM Procedure
+
+                                     Dependent Variable: SCORE
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                        3     1881.424659      627.141553       5.90    0.0022
+
+         Error                       36     3828.350341      106.343065
+
+         Corrected Total             39     5709.775000
+
+
+                          R-Square     Coeff Var      Root MSE    SCORE Mean
+
+                          0.329509      5.310816      10.31228      194.1750
+
+
+         Source                      DF       Type I SS     Mean Square    F Value    Pr > F
+
+         GROUP                        1       11.025000       11.025000       0.10    0.7493
+         IQ                           1     1772.978707     1772.978707      16.67    0.0002
+         IQ*GROUP                     1       97.420952       97.420952       0.92    0.3449
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         GROUP                        1      148.793519      148.793519       1.40    0.2446
+         IQ                           1     1859.559243     1859.559243      17.49    0.0002
+         IQ*GROUP                     1       97.420952       97.420952       0.92    0.3449
+
+______________________________________________________________________________________________________
+
+                                 ANCOVA: Group vs. Score, IQ Adjusted
+
+                                          The GLM Procedure
+
+                                       Class Level Information
+
+                                    Class         Levels    Values
+
+                                    GROUP              2    A B
+
+
+                               Number of Observations Read          40
+                               Number of Observations Used          40
+
+______________________________________________________________________________________________________
+
+                                 ANCOVA: Group vs. Score, IQ Adjusted
+
+                                          The GLM Procedure
+
+                                     Dependent Variable: SCORE
+
+                                                 Sum of
+         Source                      DF         Squares     Mean Square    F Value    Pr > F
+
+         Model                        2     1784.003707      892.001853       8.41    0.0010
+
+         Error                       37     3925.771293      106.101927
+
+         Corrected Total             39     5709.775000
+
+
+                          R-Square     Coeff Var      Root MSE    SCORE Mean
+
+                          0.312447      5.304792      10.30058      194.1750
+
+
+         Source                      DF       Type I SS     Mean Square    F Value    Pr > F
+
+         GROUP                        1       11.025000       11.025000       0.10    0.7490
+         IQ                           1     1772.978707     1772.978707      16.71    0.0002
+
+
+         Source                      DF     Type III SS     Mean Square    F Value    Pr > F
+
+         GROUP                        1      596.091414      596.091414       5.62    0.0231
+         IQ                           1     1772.978707     1772.978707      16.71    0.0002
+
+______________________________________________________________________________________________________
+
+                                 ANCOVA: Group vs. Score, IQ Adjusted
+
+                                          The GLM Procedure
+                                         Least Squares Means
+                          Adjustment for Multiple Comparisons: Tukey-Kramer
+
+                                                          H0:LSMean1=
+                                                            LSMean2
+                                 GROUP    SCORE LSMEAN       Pr > |t|
+
+                                 A          189.680599         0.0231
+                                 B          198.669401
