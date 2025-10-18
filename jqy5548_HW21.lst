@@ -1,0 +1,40 @@
+
+______________________________________________________________________________________________________
+
+                                         The results data set
+
+                                       team    member    score
+
+                                        11     john        77
+                                        11     james       88
+                                        22     bobby       55
+                                        22     opey        89
+                                        33     maria       66
+                                        33     ian         90
+                                        44     joan        56
+                                        44     jane        82
+                                        55     jack        65
+                                        55     jill        92
+
+______________________________________________________________________________________________________
+
+                                        The addresses data set
+
+           ID     Name                 Street                    Town        State     Zip
+
+          1024    Alice Smith          123 Elm St.            East Podunk     PA      19992
+          1167    Maryann White        756 Washington Ave.    East Podunk     PA      19992
+          1168    Thomas Jones         432 Main Street        West Podunk     PA      19991
+          1201    Benedictine Arnol    245 Ferguson Ave.      East Podunk     PA      19992
+          1302    Felicia Ho           110 Jefferson Blvd.    West Podunk     PA      19991
+
+______________________________________________________________________________________________________
+
+                                        The results2 data set
+
+                                    source    id    name     score
+
+                                       1      11    john      77
+                                       2      11    james     88
+                                       1      22    bobby     55
+                                       2      22    opey      89
