@@ -1,0 +1,36 @@
+
+______________________________________________________________________________________________________
+
+                                         Tall Grades Dataset
+
+                                   idno    l_name    grade    gtype
+
+                                    10     Smith       78      G1
+                                    10     Smith       82      G2
+                                    10     Smith       86      G3
+                                    10     Smith       69      G4
+                                    10     Smith       97      G5
+                                    10     Smith      160      G6
+                                    11     Simon       88      G1
+                                    11     Simon       72      G2
+                                    11     Simon       86      G3
+                                    11     Simon       99      G4
+                                    11     Simon      100      G5
+                                    11     Simon      170      G6
+                                    12     Jones       98      G1
+                                    12     Jones       92      G2
+                                    12     Jones       92      G3
+                                    12     Jones       99      G4
+                                    12     Jones       99      G5
+                                    12     Jones      185      G6
+
+______________________________________________________________________________________________________
+
+                                           Answers Dataset
+
+                    id    score1    score2    score3    score4    score5    passed
+
+                     1      50        70        62        78        85         4
+                     2      90        86        87        91        94         5
+                     3      63        72        58        73        68         2
+                     4      60        68        59        70        65         0
