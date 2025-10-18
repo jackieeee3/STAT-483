@@ -1,0 +1,20 @@
+
+______________________________________________________________________________________________________
+
+                                         The address data set
+
+                            name               street                city
+
+                       :Jason Simmons:    :123 Sesame St.:     :Madison, WI:
+                       :Justin Case:      :78 River Rd.:       :Flemington, NJ:
+                       :Marilyn Crow:     :777 Jewell Ave.:    :Pittsburgh, PA:
+
+______________________________________________________________________________________________________
+
+                                         The string data set
+
+                       string       x    y    state    n1    n2    n3    n4    n5
+
+                     123nj76543    12    3     NJ       7     6     5     4     3
+                     892NY10203    89    2     NY       1     0     2     0     3
+                     876pA83745    87    6     PA       8     3     7     4     5
