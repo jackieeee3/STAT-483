@@ -1,0 +1,389 @@
+
+...............................................................................................................................
+
+                                            Regression of Light and Water on Yield
+
+                                                       The REG Procedure
+                                                         Model: MODEL1
+                                                  Dependent Variable: yield
+
+                                            Number of Observations Read          18
+                                            Number of Observations Used          18
+
+
+                                                     Analysis of Variance
+
+                                                            Sum of           Mean
+                        Source                   DF        Squares         Square    F Value    Pr > F
+
+                        Model                     3      557.72222      185.90741      37.84    <.0001
+                        Error                    14       68.77778        4.91270
+                        Corrected Total          17      626.50000
+
+
+                                     Root MSE              2.21646    R-Square     0.8902
+                                     Dependent Mean       17.16667    Adj R-Sq     0.8667
+                                     Coeff Var            12.91142
+
+
+                                                     Parameter Estimates
+
+                                                  Parameter       Standard
+                             Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+                             Intercept     1        9.55556        1.04485       9.15      <.0001
+                             light1        1        3.83333        1.27967       3.00      0.0096
+                             light2        1       12.16667        1.27967       9.51      <.0001
+                             water1        1        4.55556        1.04485       4.36      0.0007
+
+...............................................................................................................................
+
+                                            Regression of Light and Water on Yield
+
+                                                       The REG Procedure
+                                                         Model: MODEL1
+                                                  Dependent Variable: yield
+
+                                                       Output Statistics
+
+                                               Std
+                                             Error
+               Dependent    Predicted         Mean                 Std Error     Student
+        Obs     Variable        Value      Predict     Residual     Residual    Residual      -2-1 0 1 2       Cook's D
+
+          1           12       9.5556       1.0448       2.4444        1.955       1.251    |      |**    |       0.112
+          2            9       9.5556       1.0448      -0.5556        1.955      -0.284    |      |      |       0.006
+          3            8       9.5556       1.0448      -1.5556        1.955      -0.796    |     *|      |       0.045
+          4           13      14.1111       1.0448      -1.1111        1.955      -0.568    |     *|      |       0.023
+          5           15      14.1111       1.0448       0.8889        1.955       0.455    |      |      |       0.015
+          6           14      14.1111       1.0448      -0.1111        1.955      -0.057    |      |      |       0.000
+          7           16      13.3889       1.0448       2.6111        1.955       1.336    |      |**    |       0.127
+          8           14      13.3889       1.0448       0.6111        1.955       0.313    |      |      |       0.007
+          9           12      13.3889       1.0448      -1.3889        1.955      -0.711    |     *|      |       0.036
+         10           20      17.9444       1.0448       2.0556        1.955       1.052    |      |**    |       0.079
+         11           16      17.9444       1.0448      -1.9444        1.955      -0.995    |     *|      |       0.071
+         12           16      17.9444       1.0448      -1.9444        1.955      -0.995    |     *|      |       0.071
+         13           18      21.7222       1.0448      -3.7222        1.955      -1.904    |   ***|      |       0.259
+         14           25      21.7222       1.0448       3.2778        1.955       1.677    |      |***   |       0.201
+         15           20      21.7222       1.0448      -1.7222        1.955      -0.881    |     *|      |       0.055
+         16           25      26.2778       1.0448      -1.2778        1.955      -0.654    |     *|      |       0.031
+         17           27      26.2778       1.0448       0.7222        1.955       0.369    |      |      |       0.010
+         18           29      26.2778       1.0448       2.7222        1.955       1.393    |      |**    |       0.139
+
+
+                                         Sum of Residuals                           0
+                                         Sum of Squared Residuals            68.77778
+                                         Predicted Residual SS (PRESS)      113.69388
+
+...............................................................................................................................
+
+                                                Correlations from EXERCISE data
+
+                                                      The CORR Procedure
+
+                                      4  Variables:    PRESS    CURL     PUSHUPS  SITUPS
+
+
+                                          Pearson Correlation Coefficients, N = 500
+                                                  Prob > |r| under H0: Rho=0
+
+                                                PRESS          CURL       PUSHUPS        SITUPS
+
+                                PRESS         1.00000       0.57080       0.61999       0.45234
+                                                             <.0001        <.0001        <.0001
+
+                                CURL          0.57080       1.00000       0.53702       0.34020
+                                               <.0001                      <.0001        <.0001
+
+                                PUSHUPS       0.61999       0.53702       1.00000       0.50768
+                                               <.0001        <.0001                      <.0001
+
+                                SITUPS        0.45234       0.34020       0.50768       1.00000
+                                               <.0001        <.0001        <.0001
+
+...............................................................................................................................
+
+                                               Exercise Data Stepwise Regression
+
+                                                       The REG Procedure
+                                                         Model: MODEL1
+                                                  Dependent Variable: PRESS
+
+                                            Number of Observations Read         500
+                                            Number of Observations Used         500
+
+                                                  Stepwise Selection: Step 1
+
+
+                                 Variable MALE Entered: R-Square = 0.5706 and C(p) = 120.4358
+
+
+                                                     Analysis of Variance
+
+                                                            Sum of           Mean
+                        Source                   DF        Squares         Square    F Value    Pr > F
+
+                        Model                     1         270218         270218     661.64    <.0001
+                        Error                   498         203386      408.40606
+                        Corrected Total         499         473604
+
+
+                                            Parameter     Standard
+                               Variable      Estimate        Error   Type II SS  F Value  Pr > F
+
+                               Intercept     96.34586      1.23910      2469152  6045.83  <.0001
+                               MALE          46.59003      1.81127       270218   661.64  <.0001
+
+                                               Bounds on condition number: 1, 1
+-------------------------------------------------------------------------------------------------------------------------------
+
+                                                  Stepwise Selection: Step 2
+
+
+                                  Variable CURL Entered: R-Square = 0.6447 and C(p) = 15.9936
+
+
+                                                     Analysis of Variance
+
+                                                            Sum of           Mean
+                        Source                   DF        Squares         Square    F Value    Pr > F
+
+                        Model                     2         305337         152668     450.93    <.0001
+                        Error                   497         168267      338.56492
+                        Corrected Total         499         473604
+
+
+                                            Parameter     Standard
+                               Variable      Estimate        Error   Type II SS  F Value  Pr > F
+
+                               Intercept     59.08881      3.82812        80664   238.25  <.0001
+                               MALE          38.58506      1.82686       151033   446.10  <.0001
+                               CURL           0.76944      0.07555        35119   103.73  <.0001
+
+                                          Bounds on condition number: 1.2271, 4.9086
+-------------------------------------------------------------------------------------------------------------------------------
+
+                                                  Stepwise Selection: Step 3
+
+...............................................................................................................................
+
+                                               Exercise Data Stepwise Regression
+
+                                                       The REG Procedure
+                                                         Model: MODEL1
+                                                  Dependent Variable: PRESS
+
+                                                  Stepwise Selection: Step 3
+
+                                 Variable SITUPS Entered: R-Square = 0.6551 and C(p) = 3.0481
+
+
+                                                     Analysis of Variance
+
+                                                            Sum of           Mean
+                        Source                   DF        Squares         Square    F Value    Pr > F
+
+                        Model                     3         310268         103423     314.06    <.0001
+                        Error                   496         163336      329.30579
+                        Corrected Total         499         473604
+
+
+                                            Parameter     Standard
+                               Variable      Estimate        Error   Type II SS  F Value  Pr > F
+
+                               Intercept     49.63076      4.49752        40101   121.77  <.0001
+                               MALE          36.27409      1.89810       120269   365.22  <.0001
+                               CURL           0.71136      0.07600        28847    87.60  <.0001
+                               SITUPS         0.31231      0.08071   4931.09072    14.97  0.0001
+
+                                           Bounds on condition number: 1.362, 11.682
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+                             All variables left in the model are significant at the 0.1500 level.
+
+                         No other variable met the 0.1500 significance level for entry into the model.
+
+
+
+                                                 Summary of Stepwise Selection
+
+                       Variable     Variable     Number     Partial      Model
+               Step    Entered      Removed      Vars In    R-Square    R-Square     C(p)      F Value    Pr > F
+
+                 1     MALE                          1       0.5706      0.5706     120.436     661.64    <.0001
+                 2     CURL                          2       0.0742      0.6447     15.9936     103.73    <.0001
+                 3     SITUPS                        3       0.0104      0.6551      3.0481      14.97    0.0001
+
+...............................................................................................................................
+
+                                            Crosstabulation of OUTCOME and SMOKING
+
+                                                      The FREQ Procedure
+
+                                                  Table of OUTCOME by SMOKING
+
+                                              OUTCOME     SMOKING
+
+                                              Frequency‚
+                                              Percent  ‚
+                                              Row Pct  ‚
+                                              Col Pct  ‚NO      ‚YES     ‚  Total
+                                              ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                              Control  ‚    899 ‚    101 ‚   1000
+                                                       ‚  44.95 ‚   5.05 ‚  50.00
+                                                       ‚  89.90 ‚  10.10 ‚
+                                                       ‚  66.20 ‚  15.73 ‚
+                                              ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                              Case     ‚    459 ‚    541 ‚   1000
+                                                       ‚  22.95 ‚  27.05 ‚  50.00
+                                                       ‚  45.90 ‚  54.10 ‚
+                                                       ‚  33.80 ‚  84.27 ‚
+                                              ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                              Total        1358      642     2000
+                                                          67.90    32.10   100.00
+
+
+                                          Statistics for Table of OUTCOME by SMOKING
+
+                                    Statistic                     DF       Value      Prob
+                                    ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                    Chi-Square                     1    444.1202    <.0001
+                                    Likelihood Ratio Chi-Square    1    476.3716    <.0001
+                                    Continuity Adj. Chi-Square     1    442.1038    <.0001
+                                    Mantel-Haenszel Chi-Square     1    443.8982    <.0001
+                                    Phi Coefficient                       0.4712
+                                    Contingency Coefficient               0.4263
+                                    Cramer's V                            0.4712
+
+
+                                                     Fisher's Exact Test
+                                              ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                              Cell (1,1) Frequency (F)       899
+                                              Left-sided Pr <= F          1.0000
+                                              Right-sided Pr >= F         <.0001
+
+                                              Table Probability (P)       <.0001
+                                              Two-sided Pr <= P           <.0001
+
+...............................................................................................................................
+
+                                            Crosstabulation of OUTCOME and SMOKING
+
+                                                      The FREQ Procedure
+
+                                          Statistics for Table of OUTCOME by SMOKING
+
+                                    Statistic                              Value       ASE
+                                    ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                    Gamma                                 0.8260    0.0195
+                                    Kendall's Tau-b                       0.4712    0.0184
+                                    Stuart's Tau-c                        0.4400    0.0184
+
+                                    Somers' D C|R                         0.4400    0.0184
+                                    Somers' D R|C                         0.5047    0.0193
+
+                                    Pearson Correlation                   0.4712    0.0184
+                                    Spearman Correlation                  0.4712    0.0184
+
+                                    Lambda Asymmetric C|R                 0.1277    0.0460
+                                    Lambda Asymmetric R|C                 0.4400    0.0190
+                                    Lambda Symmetric                      0.3179    0.0271
+
+                                    Uncertainty Coefficient C|R           0.1898    0.0155
+                                    Uncertainty Coefficient R|C           0.1718    0.0143
+                                    Uncertainty Coefficient Symmetric     0.1803    0.0149
+
+
+                                                Odds Ratio and Relative Risks
+
+                              Statistic                        Value       95% Confidence Limits
+                              ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                              Odds Ratio                     10.4911        8.2496       13.3418
+                              Relative Risk (Column 1)        1.9586        1.8254        2.1015
+                              Relative Risk (Column 2)        0.1867        0.1538        0.2266
+
+                                                      Sample Size = 2000
+
+...............................................................................................................................
+
+                                                Predicting Outcome from Smoking
+
+                                                    The LOGISTIC Procedure
+
+                                                      Model Information
+
+                                        Data Set                      WORK.SMOKING
+                                        Response Variable             OUTCOME
+                                        Number of Response Levels     2
+                                        Model                         binary logit
+                                        Optimization Technique        Fisher's scoring
+
+
+                                            Number of Observations Read        2000
+                                            Number of Observations Used        2000
+
+
+                                                       Response Profile
+
+                                               Ordered                     Total
+                                                 Value     OUTCOME     Frequency
+
+                                                     1     Case             1000
+                                                     2     Control          1000
+
+                                            Probability modeled is OUTCOME='Case'.
+
+
+                                                   Model Convergence Status
+
+                                        Convergence criterion (GCONV=1E-8) satisfied.
+
+
+                                                     Model Fit Statistics
+
+                                                                         Intercept
+                                                          Intercept            and
+                                            Criterion          Only     Covariates
+
+                                            AIC            2774.589       2300.217
+                                            SC             2780.190       2311.419
+                                            -2 Log L       2772.589       2296.217
+
+
+                                            Testing Global Null Hypothesis: BETA=0
+
+                                    Test                 Chi-Square       DF     Pr > ChiSq
+
+                                    Likelihood Ratio       476.3716        1         <.0001
+                                    Score                  444.1202        1         <.0001
+                                    Wald                   367.3132        1         <.0001
+
+
+                                           Analysis of Maximum Likelihood Estimates
+
+                                                             Standard          Wald
+                              Parameter    DF    Estimate       Error    Chi-Square    Pr > ChiSq
+
+                              Intercept     1     -0.6722      0.0574      137.3131        <.0001
+                              SMOKING       1      2.3503      0.1226      367.3132        <.0001
+
+...............................................................................................................................
+
+                                                Predicting Outcome from Smoking
+
+                                                    The LOGISTIC Procedure
+
+                                 Association of Predicted Probabilities and Observed Responses
+
+                                      Percent Concordant       48.6    Somers' D    0.440
+                                      Percent Discordant        4.6    Gamma        0.826
+                                      Percent Tied             46.7    Tau-a        0.220
+                                      Pairs                 1000000    c            0.720
+
+
+                                      Odds Ratio Estimates and Wald Confidence Intervals
+
+                                  Effect          Unit     Estimate     95% Confidence Limits
+
+                                  SMOKING       1.0000       10.488        8.248       13.338
