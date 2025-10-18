@@ -1,0 +1,300 @@
+
+______________________________________________________________________________________________________
+
+       Odds Ratio and 95% Confidence Interval for Non-Ionizing Radiation Exposure and Leukemia
+
+                                          The FREQ Procedure
+
+                                     Table of Disease by Exposure
+
+                                 Disease     Exposure
+
+                                 Frequency‚
+                                 Percent  ‚
+                                 Row Pct  ‚
+                                 Col Pct  ‚E       ‚NE      ‚  Total
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Case     ‚     50 ‚    500 ‚    550
+                                          ‚   4.59 ‚  45.87 ‚  50.46
+                                          ‚   9.09 ‚  90.91 ‚
+                                          ‚  55.56 ‚  50.00 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Control  ‚     40 ‚    500 ‚    540
+                                          ‚   3.67 ‚  45.87 ‚  49.54
+                                          ‚   7.41 ‚  92.59 ‚
+                                          ‚  44.44 ‚  50.00 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Total          90     1000     1090
+                                              8.26    91.74   100.00
+
+
+                             Statistics for Table of Disease by Exposure
+
+                        Statistic                     DF       Value      Prob
+                        ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                        Chi-Square                     1      1.0195    0.3126
+                        Likelihood Ratio Chi-Square    1      1.0217    0.3121
+                        Continuity Adj. Chi-Square     1      0.8093    0.3683
+                        Mantel-Haenszel Chi-Square     1      1.0185    0.3129
+                        Phi Coefficient                       0.0306
+                        Contingency Coefficient               0.0306
+                        Cramer's V                            0.0306
+
+
+                                         Fisher's Exact Test
+                                  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                  Cell (1,1) Frequency (F)        50
+                                  Left-sided Pr <= F          0.8686
+                                  Right-sided Pr >= F         0.1842
+
+                                  Table Probability (P)       0.0529
+                                  Two-sided Pr <= P           0.3240
+
+
+
+______________________________________________________________________________________________________
+
+       Odds Ratio and 95% Confidence Interval for Non-Ionizing Radiation Exposure and Leukemia
+
+                                          The FREQ Procedure
+
+                             Statistics for Table of Disease by Exposure
+
+                                    Odds Ratio and Relative Risks
+
+                  Statistic                        Value       95% Confidence Limits
+                  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                  Odds Ratio                      1.2500        0.8100        1.9290
+                  Relative Risk (Column 1)        1.2273        0.8239        1.8281
+                  Relative Risk (Column 2)        0.9818        0.9475        1.0174
+
+                                          Sample Size = 1090
+
+______________________________________________________________________________________________________
+
+                   Relative Risk and 95% Confidence Interval for Low SES and Asthma
+
+                                          The FREQ Procedure
+
+                                        Table of SES by Asthma
+
+                                 SES       Asthma
+
+                                 Frequency‚
+                                 Percent  ‚
+                                 Row Pct  ‚
+                                 Col Pct  ‚Yes     ‚No      ‚  Total
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Low      ‚     40 ‚    100 ‚    140
+                                          ‚  13.33 ‚  33.33 ‚  46.67
+                                          ‚  28.57 ‚  71.43 ‚
+                                          ‚  57.14 ‚  43.48 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 High     ‚     30 ‚    130 ‚    160
+                                          ‚  10.00 ‚  43.33 ‚  53.33
+                                          ‚  18.75 ‚  81.25 ‚
+                                          ‚  42.86 ‚  56.52 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Total          70      230      300
+                                             23.33    76.67   100.00
+
+
+                                Statistics for Table of SES by Asthma
+
+                                    Odds Ratio and Relative Risks
+
+                  Statistic                        Value       95% Confidence Limits
+                  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                  Odds Ratio                      1.7333        1.0097        2.9756
+                  Relative Risk (Column 1)        1.5238        1.0057        2.3088
+                  Relative Risk (Column 2)        0.8791        0.7731        0.9997
+
+                                          Sample Size = 300
+
+______________________________________________________________________________________________________
+
+                          Kappa Coefficient Between Carotid Stenosis Methods
+
+                                          The FREQ Procedure
+
+                                   Table of MethodOne by MethodTwo
+
+                                 MethodOne     MethodTwo
+
+                                 Frequency‚
+                                 Percent  ‚
+                                 Row Pct  ‚
+                                 Col Pct  ‚NO      ‚O       ‚  Total
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 NO       ‚     67 ‚     10 ‚     77
+                                          ‚  67.00 ‚  10.00 ‚  77.00
+                                          ‚  87.01 ‚  12.99 ‚
+                                          ‚  89.33 ‚  40.00 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 O        ‚      8 ‚     15 ‚     23
+                                          ‚   8.00 ‚  15.00 ‚  23.00
+                                          ‚  34.78 ‚  65.22 ‚
+                                          ‚  10.67 ‚  60.00 ‚
+                                 ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                                 Total          75       25      100
+                                             75.00    25.00   100.00
+
+
+                            Statistics for Table of MethodOne by MethodTwo
+
+
+                                            McNemar's Test
+
+                                  Chi-Square        DF    Pr > ChiSq
+
+                                      0.2222         1        0.6374
+
+
+                                       Simple Kappa Coefficient
+
+                                        Standard
+                            Estimate       Error    95% Confidence Limits
+
+                              0.5068      0.1008      0.3092       0.7045
+
+                                          Sample Size = 100
+
+______________________________________________________________________________________________________
+
+                          Kappa Coefficient Between Carotid Stenosis Methods
+
+                                          The FREQ Procedure
+
+                                   Table 1 of Treatment by Survived
+                                       Controlling for Study=1
+
+                    Treatment     Survived
+
+                    Frequency‚
+                    Percent  ‚
+                    Row Pct  ‚
+                    Col Pct  ‚      20‚      21‚      25‚      28‚      30‚  Total
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    MgSO4    ‚    100 ‚      0 ‚      0 ‚      0 ‚      0 ‚    100
+                             ‚  39.22 ‚   0.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚  39.22
+                             ‚ 100.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚
+                             ‚ 100.00 ‚      . ‚   0.00 ‚      . ‚      . ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Placebo  ‚      0 ‚      0 ‚    155 ‚      0 ‚      0 ‚    155
+                             ‚   0.00 ‚   0.00 ‚  60.78 ‚   0.00 ‚   0.00 ‚  60.78
+                             ‚   0.00 ‚   0.00 ‚ 100.00 ‚   0.00 ‚   0.00 ‚
+                             ‚   0.00 ‚      . ‚ 100.00 ‚      . ‚      . ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Total         100        0      155        0        0      255
+                                39.22     0.00    60.78     0.00     0.00   100.00
+
+
+                           Statistics for Table 1 of Treatment by Survived
+                                       Controlling for Study=1
+
+      Row or column sum zero. No statistics computed for this table except summary accumulation.
+
+
+                                          Sample Size = 255
+
+
+
+______________________________________________________________________________________________________
+
+                          Kappa Coefficient Between Carotid Stenosis Methods
+
+                                          The FREQ Procedure
+
+                                   Table 2 of Treatment by Survived
+                                       Controlling for Study=2
+
+                    Treatment     Survived
+
+                    Frequency‚
+                    Percent  ‚
+                    Row Pct  ‚
+                    Col Pct  ‚      20‚      21‚      25‚      28‚      30‚  Total
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    MgSO4    ‚      0 ‚      0 ‚    150 ‚      0 ‚      0 ‚    150
+                             ‚   0.00 ‚   0.00 ‚  50.00 ‚   0.00 ‚   0.00 ‚  50.00
+                             ‚   0.00 ‚   0.00 ‚ 100.00 ‚   0.00 ‚   0.00 ‚
+                             ‚      . ‚   0.00 ‚ 100.00 ‚      . ‚      . ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Placebo  ‚      0 ‚    150 ‚      0 ‚      0 ‚      0 ‚    150
+                             ‚   0.00 ‚  50.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚  50.00
+                             ‚   0.00 ‚ 100.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚
+                             ‚      . ‚ 100.00 ‚   0.00 ‚      . ‚      . ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Total           0      150      150        0        0      300
+                                 0.00    50.00    50.00     0.00     0.00   100.00
+
+
+                           Statistics for Table 2 of Treatment by Survived
+                                       Controlling for Study=2
+
+      Row or column sum zero. No statistics computed for this table except summary accumulation.
+
+
+                                          Sample Size = 300
+
+
+
+______________________________________________________________________________________________________
+
+                          Kappa Coefficient Between Carotid Stenosis Methods
+
+                                          The FREQ Procedure
+
+                                   Table 3 of Treatment by Survived
+                                       Controlling for Study=3
+
+                    Treatment     Survived
+
+                    Frequency‚
+                    Percent  ‚
+                    Row Pct  ‚
+                    Col Pct  ‚      20‚      21‚      25‚      28‚      30‚  Total
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    MgSO4    ‚      0 ‚      0 ‚      0 ‚      0 ‚    200 ‚    200
+                             ‚   0.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚  45.45 ‚  45.45
+                             ‚   0.00 ‚   0.00 ‚   0.00 ‚   0.00 ‚ 100.00 ‚
+                             ‚      . ‚      . ‚      . ‚   0.00 ‚ 100.00 ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Placebo  ‚      0 ‚      0 ‚      0 ‚    240 ‚      0 ‚    240
+                             ‚   0.00 ‚   0.00 ‚   0.00 ‚  54.55 ‚   0.00 ‚  54.55
+                             ‚   0.00 ‚   0.00 ‚   0.00 ‚ 100.00 ‚   0.00 ‚
+                             ‚      . ‚      . ‚      . ‚ 100.00 ‚   0.00 ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Total           0        0        0      240      200      440
+                                 0.00     0.00     0.00    54.55    45.45   100.00
+
+
+                           Statistics for Table 3 of Treatment by Survived
+                                       Controlling for Study=3
+
+      Row or column sum zero. No statistics computed for this table except summary accumulation.
+
+
+                                          Sample Size = 440
+
+______________________________________________________________________________________________________
+
+                          Kappa Coefficient Between Carotid Stenosis Methods
+
+                                          The FREQ Procedure
+
+                             Summary Statistics for Treatment by Survived
+                                        Controlling for Study
+
+                     Cochran-Mantel-Haenszel Statistics (Based on Table Scores)
+
+                   Statistic    Alternative Hypothesis    DF       Value      Prob
+                   ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                       1        Nonzero Correlation        1     59.3815    <.0001
+                       2        Row Mean Scores Differ     1     59.3815    <.0001
+                       3        General Association        4       .         .
+
+                   At least one statistic not computed--singular covariance matrix.
+
+
+                                       Total Sample Size = 995
