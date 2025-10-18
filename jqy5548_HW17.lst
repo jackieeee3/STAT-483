@@ -1,0 +1,62 @@
+
+______________________________________________________________________________________________________
+
+                                    Output dataset: Weight Change
+
+                patient    gender    group    startweight    endweight    changeweight
+
+                    1      Female      A          158           160             -2
+                    2      Female      B          167           167              0
+                    3      Male        C          156           175            -19
+                    5      Male        C          154           158             -4
+                    6      Male        B          160           171            -11
+                    7      Male        A          150           168            -18
+                    8      Male        A          135           125             10
+                    9      Female      C          159           140             19
+                   10      Female      C          167           174             -7
+                   11      Female      C          159           181            -22
+                   12      Female      C          162           162              0
+                   13      Male        A          146           159            -13
+                   14      Male        A          153           153              0
+                   15      Male        C          149           158             -9
+                   16      Male        B          153           155             -2
+                   17      Female      A          157           157              0
+                   18      Male        A          166           177            -11
+                   19      Female      C          158           166             -8
+                   20      Male        A          148           170            -22
+                   21      Male        C          132           112             20
+                   22      Male        B          160           160              0
+                   23      Female      A          129           130             -1
+                   24      Male        C          147           155             -8
+                   25      Female      B          144           157            -13
+
+______________________________________________________________________________________________________
+
+                                         Output dataset: Fat
+
+                patient    gender    group    weight1    weight2    weight3    weight4
+
+                    1      Female      A        158        160          .          .
+                    2      Female      B        167          .          .          .
+                    3      Male        C        156        162        175        175
+                    5      Male        C        154        158          .          .
+                    6      Male        B        160        171          .          .
+                    7      Male        A        150        156        168          .
+                    8      Male        A        135        125        125          .
+                    9      Female      C        159        151        140          .
+                   10      Female      C        167        158        167        174
+                   11      Female      C        159        181          .          .
+                   12      Female      C        162          .          .          .
+                   13      Male        A        146        153        159          .
+                   14      Male        A        153          .          .          .
+                   15      Male        C        149        157        158          .
+                   16      Male        B        153        140        155          .
+                   17      Female      A        157          .          .          .
+                   18      Male        A        166        177          .          .
+                   19      Female      C        158        165        166          .
+                   20      Male        A        148        158        170          .
+                   21      Male        C        132        123        112          .
+                   22      Male        B        160          .          .          .
+                   23      Female      A        129        130          .          .
+                   24      Male        C        147        147        155          .
+                   25      Female      B        144        157          .          .
