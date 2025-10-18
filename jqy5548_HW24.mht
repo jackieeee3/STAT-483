@@ -1,0 +1,1376 @@
+From: "Saved by Internet Explorer 11"
+Subject: SAS Output
+Date: Sun, 3 Nov 2024 22:28:50 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\420ja\AppData\Local\Temp\SAS Temporary Files\_TD14736_DESKTOP-JTV4LN3_\sashtml1.htm
+X-MimeOLE: Produced By Microsoft MimeOLE
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001">
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-type>
+<STYLE type=3Dtext/css>.accessiblecaption {
+	FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.aftercaption {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; PADDING-TOP: 4pt; =
+BORDER-SPACING: 0px
+}
+.batch {
+	FONT-SIZE: 6.7pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'SAS =
+Monospace', 'Courier New', Courier; BORDER-RIGHT: #000000 0px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #000000 0px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 3pt; FONT-STYLE: =
+normal; PADDING-TOP: 3pt; PADDING-LEFT: 3pt; BORDER-SPACING: 0pt; =
+BORDER-LEFT: #000000 0px solid; PADDING-RIGHT: 3pt
+}
+.beforecaption {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0px
+}
+.body {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.bodydate {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; TEXT-ALIGN: right; BORDER-SPACING: 0px
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 15%; MARGIN-RIGHT: 15%
+}
+.byline {
+	FONT-SIZE: 11pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: =
+#000000 0px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: =
+normal; BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.bylinecontainer {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; =
+BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid
+}
+.caption {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0px
+}
+.cell {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.container {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 15%; MARGIN-RIGHT: 15%
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 15%; MARGIN-RIGHT: 15%
+}
+.contentproclabel {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 15%; MARGIN-RIGHT: 15%
+}
+.contentprocname {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 15%; MARGIN-RIGHT: 15%
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 8px; MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.contenttitle {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; WIDTH: =
+100%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic; TEXT-ALIGN: =
+center; MARGIN: 3ex 1em 4ex
+}
+.continued {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; WIDTH: =
+100%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; =
+BORDER-SPACING: 0px
+}
+.data {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.dataemphasis {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic
+}
+.dataemphasisfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: italic
+}
+.dataempty {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.datafixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal
+}
+.datastrong {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal
+}
+.datastrongfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal
+}
+.date {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.document {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #0000ff
+}
+A:active {
+	COLOR: #0000ff
+}
+.errorbanner {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal
+}
+.errorcontent {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.errorcontentfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal
+}
+.extendedpage {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 1pt solid; BORDER-BOTTOM: =
+#000000 1pt solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid
+}
+.fatalbanner {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal
+}
+.fatalcontent {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.fatalcontentfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.footeremphasis {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #bbbbbb
+}
+.footeremphasisfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: italic; BACKGROUND-COLOR: #bbbbbb
+}
+.footerempty {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.footerfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.footerstrong {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.footerstrongfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.frame {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.graph {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 0.75pt solid; FONT-FAMILY: 'Times =
+New Roman', 'Times Roman'; BORDER-RIGHT: #000000 0.75pt solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #000000 0.75pt solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0.25pt; BORDER-LEFT: #000000 0.75pt solid
+}
+.header {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.headeremphasis {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #bbbbbb
+}
+.headeremphasisfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: italic; BACKGROUND-COLOR: #bbbbbb
+}
+.headerempty {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.headerfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.headersandfooters {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.headerstrong {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.headerstrongfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.heading1 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.heading2 {
+	FONT-SIZE: 12pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.heading3 {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.heading4 {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.heading5 {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.heading6 {
+	FONT-SIZE: 8pt; FONT-FAMILY: 'Thorndale AMT', 'Times New Roman'; =
+FONT-WEIGHT: bold
+}
+.index {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.indextitle {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.note {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.notebanner {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal
+}
+.notecontent {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.notecontentfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal
+}
+.output {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 1px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 1px solid; BORDER-COLLAPSE: =
+separate; BORDER-BOTTOM: #000000 1px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+1px solid
+}
+.pageno {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: =
+normal; TEXT-ALIGN: right; BORDER-SPACING: 0px
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 8px; MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', =
+'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.pagesprocname {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: 10pt; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal
+}
+.pagestitle {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic
+}
+.paragraph {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.parskip {
+	FONT-SIZE: 11pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: =
+#000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; WIDTH: =
+100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+TEXT-ALIGN: left
+}
+.proctitle {
+	FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.proctitlefixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal
+}
+.rowfooter {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowfooteremphasis {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #bbbbbb
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: italic; BACKGROUND-COLOR: #bbbbbb
+}
+.rowfooterempty {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowfooterfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.rowfooterstrong {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.rowheader {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowheaderemphasis {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #bbbbbb
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: italic; BACKGROUND-COLOR: #bbbbbb
+}
+.rowheaderempty {
+	FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowheaderfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.rowheaderstrong {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#bbbbbb
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: bold; =
+COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #bbbbbb
+}
+.systemfooter {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter10 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter2 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter3 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter4 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter5 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter6 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter7 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter8 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemfooter9 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle10 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle2 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle3 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle4 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle5 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle6 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle7 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle8 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systemtitle9 {
+	FONT-SIZE: 13pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.systitleandfootercontainer {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; =
+BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid
+}
+.table {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 0.75pt solid; FONT-FAMILY: 'Times =
+New Roman', 'Times Roman'; BORDER-RIGHT: #000000 0.75pt solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #000000 0.75pt solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0.25pt; BORDER-LEFT: #000000 0.75pt solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: =
+1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'Times New =
+Roman', 'Times Roman'; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: =
+#000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid
+}
+.titlesandfooters {
+	FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: italic
+}
+.usertext {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; WIDTH: =
+100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.warnbanner {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal
+}
+.warncontent {
+	FONT-SIZE: 10pt; FONT-FAMILY: 'Times New Roman', 'Times Roman'; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal
+}
+.warncontentfixed {
+	FONT-SIZE: 9pt; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+</STYLE>
+</HEAD>
+<BODY class=3Dbody>
+<DIV class=3Dbranch><A name=3DIDX></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Marital Status and Gender of =
+Subjects</TD></TR>
+  <TR>
+    <TD class=3D"c systemtitle2">with Income GE $30,000</TD></TR>
+  <TR>
+    <TD class=3D"c =
+systemtitle3">income=3D1</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The FREQ Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE summary=3D"Page Layout">
+  <TBODY>
+  <TR>
+    <TD class=3D"c t">
+      <DIV align=3Dcenter>
+      <TABLE class=3Dtable borderColor=3D#000000 cellSpacing=3D0 =
+cellPadding=3D4=20
+      rules=3Dall summary=3D"Procedure Freq: Cross-Tabular Freq Table" =
+border=3D1=20
+      frame=3Dbox>
+        <COLGROUP>
+        <COL></COLGROUP>
+        <COLGROUP></COLGROUP>
+        <TBODY>
+        <TR>
+          <TH class=3D"l t stacked_cell header" scope=3Dcol>
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TH class=3D"l t header top_stacked_value"=20
+              =
+scope=3Dcol>Frequency</TH></TR></TBODY></TABLE></TH></TR></TBODY></TABLE>=
+</DIV></TD>
+    <TD>
+      <DIV align=3Dcenter>
+      <TABLE class=3Dtable borderColor=3D#000000 cellSpacing=3D0 =
+cellPadding=3D4=20
+      rules=3Dall summary=3D"Procedure Freq: Cross-Tabular Freq Table" =
+border=3D1=20
+      frame=3Dbox>
+        <COLGROUP>
+        <COL></COLGROUP>
+        <COLGROUP>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL></COLGROUP>
+        <THEAD>
+        <TR>
+          <TH class=3D"c header" colSpan=3D8=20
+            =
+scope=3Dcolgroup>Table&nbsp;of&nbsp;sex&nbsp;by&nbsp;mar_st</TH></TR>
+        <TR>
+          <TH class=3D"c b header" rowSpan=3D2 scope=3Dcol>sex</TH>
+          <TH class=3D"c b header" colSpan=3D7 =
+scope=3Dcolgroup>mar_st</TH></TR>
+        <TR>
+          <TH class=3D"r header" scope=3Dcol>1</TH>
+          <TH class=3D"r header" scope=3Dcol>2</TH>
+          <TH class=3D"r header" scope=3Dcol>3</TH>
+          <TH class=3D"r header" scope=3Dcol>4</TH>
+          <TH class=3D"r header" scope=3Dcol>5</TH>
+          <TH class=3D"r header" scope=3Dcol>6</TH>
+          <TH class=3D"r header" scope=3Dcol>Total</TH></TR></THEAD>
+        <TBODY>
+        <TR>
+          <TH class=3D"r t rowheader" scope=3Drow>1 </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">9</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">0</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">0</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">1</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">1</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">3</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">14</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TH class=3D"r t rowheader" scope=3Drow>2 </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">51</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">10</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">7</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">44</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">15</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">41</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">168</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TH class=3D"l t rowheader" scope=3Drow>Total </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">60</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">10</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">7</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">45</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">16</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">44</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">182</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE=
+></DIV></TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX1></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Marital Status and Gender of =
+Subjects</TD></TR>
+  <TR>
+    <TD class=3D"c systemtitle2">with Income GE $30,000</TD></TR>
+  <TR>
+    <TD class=3D"c =
+systemtitle3">income=3D2</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The FREQ Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE summary=3D"Page Layout">
+  <TBODY>
+  <TR>
+    <TD class=3D"c t">
+      <DIV align=3Dcenter>
+      <TABLE class=3Dtable borderColor=3D#000000 cellSpacing=3D0 =
+cellPadding=3D4=20
+      rules=3Dall summary=3D"Procedure Freq: Cross-Tabular Freq Table" =
+border=3D1=20
+      frame=3Dbox>
+        <COLGROUP>
+        <COL></COLGROUP>
+        <COLGROUP></COLGROUP>
+        <TBODY>
+        <TR>
+          <TH class=3D"l t stacked_cell header" scope=3Dcol>
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TH class=3D"l t header top_stacked_value"=20
+              =
+scope=3Dcol>Frequency</TH></TR></TBODY></TABLE></TH></TR></TBODY></TABLE>=
+</DIV></TD>
+    <TD>
+      <DIV align=3Dcenter>
+      <TABLE class=3Dtable borderColor=3D#000000 cellSpacing=3D0 =
+cellPadding=3D4=20
+      rules=3Dall summary=3D"Procedure Freq: Cross-Tabular Freq Table" =
+border=3D1=20
+      frame=3Dbox>
+        <COLGROUP>
+        <COL></COLGROUP>
+        <COLGROUP>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL>
+        <COL></COLGROUP>
+        <THEAD>
+        <TR>
+          <TH class=3D"c header" colSpan=3D8=20
+            =
+scope=3Dcolgroup>Table&nbsp;of&nbsp;sex&nbsp;by&nbsp;mar_st</TH></TR>
+        <TR>
+          <TH class=3D"c b header" rowSpan=3D2 scope=3Dcol>sex</TH>
+          <TH class=3D"c b header" colSpan=3D7 =
+scope=3Dcolgroup>mar_st</TH></TR>
+        <TR>
+          <TH class=3D"r header" scope=3Dcol>1</TH>
+          <TH class=3D"r header" scope=3Dcol>2</TH>
+          <TH class=3D"r header" scope=3Dcol>3</TH>
+          <TH class=3D"r header" scope=3Dcol>4</TH>
+          <TH class=3D"r header" scope=3Dcol>5</TH>
+          <TH class=3D"r header" scope=3Dcol>6</TH>
+          <TH class=3D"r header" scope=3Dcol>Total</TH></TR></THEAD>
+        <TBODY>
+        <TR>
+          <TH class=3D"r t rowheader" scope=3Drow>1 </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">32</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">1</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">0</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">4</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">0</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">5</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">42</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TH class=3D"r t rowheader" scope=3Drow>2 </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">324</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">22</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">7</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">15</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">3</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">42</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">413</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TH class=3D"l t rowheader" scope=3Drow>Total </TH>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">356</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">23</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">7</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">19</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+class=3D"r t data top_stacked_value">3</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">47</TD></TR></TBODY></TABLE></TD>
+          <TD class=3D"r t stacked_cell data">
+            <TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD=20
+          class=3D"r t data =
+top_stacked_value">455</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE=
+></DIV></TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX2></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Marital Status and Gender of =
+Subjects</TD></TR>
+  <TR>
+    <TD class=3D"c systemtitle2">with Income GE $30,000</TD></TR>
+  <TR>
+    <TD class=3D"c =
+systemtitle3">income=3D2</TD></TR></TBODY></TABLE><BR>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#000000 cellSpacing=3D0 =
+cellPadding=3D4 rules=3Dall=20
+summary=3D"Procedure Print: Data Set WORK.INCOME2" border=3D1 =
+frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"r header" scope=3Dcol>sex</TH>
+    <TH class=3D"r header" scope=3Dcol>mar_st</TH>
+    <TH class=3D"l header" scope=3Dcol>_TYPE_</TH>
+    <TH class=3D"r header" scope=3Dcol>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">32</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">4</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">5</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">6</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">5</TD></TR>
+  <TR>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"l data">10</TD>
+    <TD class=3D"r data">42</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">324</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">22</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">7</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">15</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">5</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">3</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">6</TD>
+    <TD class=3D"l data">11</TD>
+    <TD class=3D"r data">42</TD></TR>
+  <TR>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"l data">10</TD>
+    <TD class=3D"r data">413</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">356</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">23</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">7</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">19</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">5</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">3</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">6</TD>
+    <TD class=3D"l data">01</TD>
+    <TD class=3D"r data">47</TD></TR>
+  <TR>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"l data">00</TD>
+    <TD=20
+class=3D"r =
+data">455</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV></BODY></HTML>
