@@ -1,0 +1,34 @@
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                           Output Dataset: Diet Data                          58
+
+                                              n
+                                              u
+                                              m
+                                     w        e
+                            w        t        r
+                            t        _        i                b
+                     w      _        f        c       b        m         b
+                w    t      i        i        _       m        i         m
+           h    t    _      n        n        h       i        _         i
+           e    _    f      i        a        e       _        f         _
+       s   i    i    i      t        l        i       i        i         d
+   O   u   g    n    n      _        _        g       n        n         i
+   b   b   h    i    a      k        k        h       i        a         f
+   s   j   t    t    l      g        g        t       t        l         f
+
+   1  007  68  155  150   70.455   68.182  1.7272   51.957  50.2812   -1.6760
+   2  002  72  250  240  113.636  109.091  1.8288   74.749  71.7594   -2.9900
+   3  005  63  240  200  109.091   90.909  1.6002   93.727  78.1055  -15.6211
+   4  001  70  345  298  156.818  135.455  1.7780  109.133  94.2655  -14.8674
+   5  003  65  140  128   63.636   58.182  1.6510   51.361  46.9587   -4.4024
+   6  004  67  225  205  102.273   93.182  1.7018   77.690  70.7843   -6.9058
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                              Output Dataset: temp                            59
+
+     Obs    abc    def    ghi    jkl    one    two    three    four    five
+
+      1      10     5      2      4      17     1       17     16.5     2.5
