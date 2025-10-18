@@ -1,0 +1,75 @@
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                         Output dataset: Lesson03 HW                        44
+
+             Obs     town     num    month    year    low    high
+
+              1     Kane       20      12     2005     12     25
+              2     Ambler     22      12     2005      8     20
+              3     Kane       20       1     2006     13     32
+              4     Oakey      32      12     2005     30     50
+              5     Oakey      32       1     2006     25     45
+              6     Ambler     22       1     2006     15     28
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                          Output dataset: Lesson03 HW                         45
+
+                             The CONTENTS Procedure
+
+  Data Set Name        STAT483.LESSON03              Observations          6
+  Member Type          DATA                          Variables             6
+  Engine               V9                            Indexes               0
+  Created              09/07/2024 17:13:32           Observation Length    48
+  Last Modified        09/07/2024 17:13:32           Deleted Observations  0
+  Protection                                         Compressed            NO
+  Data Set Type                                      Sorted                NO
+  Label
+  Data Representation  WINDOWS_64
+  Encoding             wlatin1  Western (Windows)
+
+
+                       Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            1361
+Obs in First Data Page      6
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    C:\ESSENTIALS\School OS\Junior Fall
+                            2024\STAT483\Lesson03\lesson03.sas7bdat
+Release Created             9.0401M8
+Host Created                X64_WIN+HOME
+Owner Name                  DESKTOP-JTV4LN3\420ja
+File Size                   128KB
+File Size (bytes)           131072
+
+
+                   Alphabetic List of Variables and Attributes
+
+                          #    Variable    Type    Len
+
+                          6    high        Num       8
+                          5    low         Num       8
+                          3    month       Num       8
+                          2    num         Num       8
+                          1    town        Char      6
+                          4    year        Num       8
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                             Output Dataset: rats                           46
+
+          Obs    rat       dob        disease        death    group
+
+           1      1     23MAY2006    23JUN2006    06/28/06      A
+           2      2     21MAY2006    27JUN2006    07/05/06      A
+           3      3     23MAY2006    25JUN2006    07/01/06      A
+           4      4     27MAY2006    07JUL2006    07/15/06      A
+           5      5     22MAY2006    29JUN2006    07/22/06      B
+           6      6     26MAY2006    03JUL2006    08/02/06      B
+           7      7     24MAY1990    01JUL2006    07/29/06      B
+           8      8     29MAY2006    15JUL2006    08/18/06      B
