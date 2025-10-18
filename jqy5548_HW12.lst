@@ -1,0 +1,45 @@
+                                           Summary data set
+
+                                          The FREQ Procedure
+
+                                  ed_level    Frequency     Percent
+                                  ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                         1          11        1.72
+                                         2          29        4.55
+                                         3         232       36.36
+                                         4         249       39.03
+                                         5         117       18.34
+                                           Summary data set
+
+                                          The FREQ Procedure
+
+                                       Table of sex by ed_level
+
+                    sex       ed_level
+
+                    Frequency‚
+                    Row Pct  ‚       1‚       2‚       3‚       4‚       5‚  Total
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                           1 ‚      4 ‚      7 ‚     12 ‚     20 ‚     13 ‚     56
+                             ‚   7.14 ‚  12.50 ‚  21.43 ‚  35.71 ‚  23.21 ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                           2 ‚      7 ‚     22 ‚    220 ‚    229 ‚    104 ‚    582
+                             ‚   1.20 ‚   3.78 ‚  37.80 ‚  39.35 ‚  17.87 ‚
+                    ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+                    Total          11       29      232      249      117      638
+                                           Summary data set
+
+                            Obs     sex      mar_st       COUNT    PERCENT
+
+                              1    Male      Married        41      6.4263
+                              2    Male      Partner         1      0.1567
+                              3    Male      Separated       0      0.0000
+                              4    Male      Divorced        5      0.7837
+                              5    Male      Widowed         1      0.1567
+                              6    Male      Never           8      1.2539
+                              7    Female    Married       376     58.9342
+                              8    Female    Partner        32      5.0157
+                              9    Female    Separated      14      2.1944
+                             10    Female    Divorced       59      9.2476
+                             11    Female    Widowed        18      2.8213
+                             12    Female    Never          83     13.0094
