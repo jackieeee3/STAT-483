@@ -1,0 +1,199 @@
+
+__________________________________________________________________________________________________________________________________
+
+                                                         Reading Dataset
+
+   program  score1  score2  score3  score4  score5  score6  score7  score8  score9  score10  score11  score12  score13  score14
+
+    Cody      500     450     505     404     555     567     588     577     566     644      511      522      543      578
+    Smith     355     388     440     600     510     501     502     489     499     489      515      520      520      480
+
+__________________________________________________________________________________________________________________________________
+
+                                                       Reading Speed T=test
+
+                                                       The TTEST Procedure
+
+                                                         Variable:  score
+
+                  program       Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+                  Cody                            14       536.4     60.7513     16.2365       404.0       644.0
+                  Smith                           14       486.3     59.6843     15.9513       355.0       600.0
+                  Diff (1-2)    Pooled                   50.1429     60.2202     22.7611
+                  Diff (1-2)    Satterthwaite            50.1429                 22.7611
+
+                  program       Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+                  Cody                              536.4       501.4    571.5     60.7513     44.0419  97.8730
+                  Smith                             486.3       451.8    520.7     59.6843     43.2684  96.1540
+                  Diff (1-2)    Pooled            50.1429      3.3568  96.9290     60.2202     47.4244  82.5277
+                  Diff (1-2)    Satterthwaite     50.1429      3.3560  96.9297
+
+                                   Method           Variances        DF    t Value    Pr > |t|
+
+                                   Pooled           Equal            26       2.20      0.0367
+                                   Satterthwaite    Unequal      25.992       2.20      0.0367
+
+                                                      Equality of Variances
+
+                                        Method      Num DF    Den DF    F Value    Pr > F
+
+                                        Folded F        13        13       1.04    0.9500
+
+__________________________________________________________________________________________________________________________________
+
+                                                   Reading Speed Wilcoxon Test
+
+                                                      The NPAR1WAY Procedure
+
+                                         Wilcoxon Scores (Rank Sums) for Variable score
+                                                 Classified by Variable program
+
+                                                    Sum of      Expected       Std Dev          Mean
+                             program       N        Scores      Under H0      Under H0         Score
+
+                             Cody         14         254.0         203.0     21.757927     18.142857
+                             Smith        14         152.0         203.0     21.757927     10.857143
+
+                                               Average scores were used for ties.
+
+
+                                                     Wilcoxon Two-Sample Test
+
+                                                                     t Approximation    ----------Exact----------
+                 Statistic (S)           Z    Pr > Z    Pr > |Z|    Pr > Z  Pr > |Z|    Pr >= S    Pr >= |S-Mean|
+
+                      254.0000      2.3210    0.0101      0.0203    0.0140    0.0281     0.0090            0.0179
+
+                                            Z includes a continuity correction of 0.5.
+
+
+                                                        Kruskal-Wallis Test
+
+                                                Chi-Square        DF    Pr > ChiSq
+
+                                                    5.4942         1        0.0191
+
+__________________________________________________________________________________________________________________________________
+
+                                                       Group A and C T-test
+
+                                                       The TTEST Procedure
+
+                                                           Variable:  X
+
+                  GROUP         Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+                  A                               10       305.1     11.6376      3.6801       281.0       321.0
+                  C                               10       288.4      7.5011      2.3721       276.0       299.0
+                  Diff (1-2)    Pooled                   16.7000      9.7903      4.3784
+                  Diff (1-2)    Satterthwaite            16.7000                  4.3784
+
+                  GROUP         Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+                  A                                 305.1       296.8    313.4     11.6376      8.0047  21.2457
+                  C                                 288.4       283.0    293.8      7.5011      5.1595  13.6941
+                  Diff (1-2)    Pooled            16.7000      7.5014  25.8986      9.7903      7.3977  14.4781
+                  Diff (1-2)    Satterthwaite     16.7000      7.3877  26.0123
+
+                                   Method           Variances        DF    t Value    Pr > |t|
+
+                                   Pooled           Equal            18       3.81      0.0013
+                                   Satterthwaite    Unequal      15.377       3.81      0.0016
+
+                                                      Equality of Variances
+
+                                        Method      Num DF    Den DF    F Value    Pr > F
+
+                                        Folded F         9         9       2.41    0.2068
+
+
+                                                           Variable:  Y
+
+                  GROUP         Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+                  A                               10       373.7     23.9214      7.5646       326.0       405.0
+                  C                               10       338.1     38.2723     12.1028       291.0       387.0
+                  Diff (1-2)    Pooled                   35.6000     31.9139     14.2724
+                  Diff (1-2)    Satterthwaite            35.6000                 14.2724
+
+                  GROUP         Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+                  A                                 373.7       356.6    390.8     23.9214     16.4540  43.6711
+                  C                                 338.1       310.7    365.5     38.2723     26.3250  69.8702
+                  Diff (1-2)    Pooled            35.6000      5.6149  65.5851     31.9139     24.1146  47.1951
+                  Diff (1-2)    Satterthwaite     35.6000      5.1969  66.0031
+
+                                   Method           Variances        DF    t Value    Pr > |t|
+
+                                   Pooled           Equal            18       2.49      0.0226
+                                   Satterthwaite    Unequal      15.101       2.49      0.0247
+
+
+__________________________________________________________________________________________________________________________________
+
+                                                       Group A and C T-test
+
+                                                       The TTEST Procedure
+
+                                                           Variable:  Y
+
+                                                      Equality of Variances
+
+                                        Method      Num DF    Den DF    F Value    Pr > F
+
+                                        Folded F         9         9       2.56    0.1777
+
+__________________________________________________________________________________________________________________________________
+
+                                                  South Beach Diet Paired T-test
+
+                                                       The TTEST Procedure
+
+                                            Difference:  Before_Weight - After_Weight
+
+                                   N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+                                  12      7.1667      9.2425      2.6681    -10.0000     21.0000
+
+                                      Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+                                    7.1667      1.2942  13.0391      9.2425      6.5474  15.6927
+
+                                                      DF    t Value    Pr > |t|
+
+                                                      11       2.69      0.0212
+
+__________________________________________________________________________________________________________________________________
+
+                                                South Beach Diet Non-paired T-test
+
+                                                       The TTEST Procedure
+
+                                                        Variable:  weight
+
+                  time          Method             N        Mean     Std Dev     Std Err     Minimum     Maximum
+
+                  After                           12       262.4     69.3141     20.0093       158.0       395.0
+                  Before                          12       269.6     72.2212     20.8485       160.0       400.0
+                  Diff (1-2)    Pooled                   -7.1667     70.7826     28.8969
+                  Diff (1-2)    Satterthwaite            -7.1667                 28.8969
+
+                  time          Method               Mean       95% CL Mean        Std Dev      95% CL Std Dev
+
+                  After                             262.4       218.4    306.5     69.3141     49.1018    117.7
+                  Before                            269.6       223.7    315.5     72.2212     51.1611    122.6
+                  Diff (1-2)    Pooled            -7.1667    -67.0951  52.7618     70.7826     54.7429    100.2
+                  Diff (1-2)    Satterthwaite     -7.1667    -67.1010  52.7676
+
+                                   Method           Variances        DF    t Value    Pr > |t|
+
+                                   Pooled           Equal            22      -0.25      0.8064
+                                   Satterthwaite    Unequal      21.963      -0.25      0.8064
+
+                                                      Equality of Variances
+
+                                        Method      Num DF    Den DF    F Value    Pr > F
+
+                                        Folded F        11        11       1.09    0.8940
