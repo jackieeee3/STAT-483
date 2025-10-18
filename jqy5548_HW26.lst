@@ -1,0 +1,143 @@
+
+______________________________________________________________________________________________________
+
+                                      Weight Difference Dataset
+
+                                            DATE_                                 WEIGHT_
+             Obs    PATIENT    VISIT        VISIT    WEIGHT    GENDER    GROUP      DIFF
+
+               1        1        1      26MAR2007      157     Male        C          .
+               2        1        2      30JUN2007      165     Male        C          8
+               3        1        3      15NOV2007      181     Male        C         16
+               4        3        1      05JUN2007      152     Male        B          .
+               5        3        2      01JUL2007      150     Male        B         -2
+               6        3        3      10DEC2007      139     Male        B        -11
+               7        3        4      12APR2008      146     Male        B          7
+               8        4        1      12MAY2007      144     Male        C          .
+               9        5        1      24APR2007      123     Male        C          .
+              10        5        2      29JUL2007      126     Male        C          3
+              11        5        3      13JAN2008      123     Male        C         -3
+              12        6        1      31MAR2007      133     Male        B          .
+              13        7        1      28MAY2007      165     Male        A          .
+              14        7        2      24AUG2007      178     Male        A         13
+              15        7        3      14FEB2008      173     Male        A         -5
+              16        7        4      05SEP2008      171     Male        A         -2
+              17        8        1      09JUN2007      148     Male        C          .
+              18        9        1      12APR2007      153     Female      B          .
+              19        9        2      15JUL2007      158     Female      B          5
+              20       10        1      06APR2007      141     Female      A          .
+              21       10        2      29JUN2007      145     Female      A          4
+              22       12        1      26APR2007      155     Female      A          .
+              23       12        2      22AUG2007      158     Female      A          3
+              24       13        1      21MAY2007      140     Male        C          .
+              25       13        2      08SEP2007      123     Male        C        -17
+              26       13        3      03JAN2008      136     Male        C         13
+              27       15        1      29MAR2007      148     Male        C          .
+              28       15        2      15JUN2007      161     Male        C         13
+              29       16        1      29MAR2007      148     Female      A          .
+              30       17        1      28JUN2007      149     Male        B          .
+              31       17        2      06OCT2007      149     Male        B          0
+              32       17        3      05NOV2007      160     Male        B         11
+              33       17        4      28MAR2008      151     Male        B         -9
+              34       18        1      31MAR2007      133     Male        C          .
+              35       19        1      12JUN2007      150     Female      B          .
+              36       19        2      16JUL2007      155     Female      B          5
+              37       19        3      14OCT2007      155     Female      B          0
+              38       19        4      22JAN2008      132     Female      B        -23
+              39       20        1      26JUN2007      156     Female      C          .
+              40       20        2      24SEP2007      171     Female      C         15
+              41       21        1      25MAY2007      145     Female      A          .
+              42       21        2      18JUL2007      156     Female      A         11
+              43       22        1      25MAY2007      158     Male        C          .
+              44       23        1      10JUN2007      127     Male        A          .
+              45       23        2      30JUL2007      131     Male        A          4
+              46       23        3      30NOV2007      152     Male        A         21
+              47       23        4      10APR2008      157     Male        A          5
+              48       24        1      12APR2007      172     Male        B          .
+              49       25        1      02JUL2007      175     Male        B          .
+
+______________________________________________________________________________________________________
+
+                                            Change Dataset
+
+                                       DATE_                                 WEIGHT_    DAYS_
+        Obs    PATIENT    VISIT        VISIT    WEIGHT    GENDER    GROUP      DIFF      DIFF
+
+          1        1        3      15NOV2007      181     Male        C         24       234
+          2        3        4      12APR2008      146     Male        B         -6       312
+          3        5        3      13JAN2008      123     Male        C          0       264
+          4        7        4      05SEP2008      171     Male        A          6       466
+          5        9        2      15JUL2007      158     Female      B          5        94
+          6       10        2      29JUN2007      145     Female      A          4        84
+          7       12        2      22AUG2007      158     Female      A          3       118
+          8       13        3      03JAN2008      136     Male        C         -4       227
+          9       15        2      15JUN2007      161     Male        C         13        78
+         10       17        4      28MAR2008      151     Male        B          2       274
+         11       19        4      22JAN2008      132     Female      B        -18       224
+         12       20        2      24SEP2007      171     Female      C         15        90
+         13       21        2      18JUL2007      156     Female      A         11        54
+         14       23        4      10APR2008      157     Male        A         30       305
+
+______________________________________________________________________________________________________
+
+              Summary Dataset: Mean, Median, and Standard Deviation by Gender and Group
+
+                                                            mean_     median_    stddev_
+             Obs    GENDER    GROUP    _TYPE_    _FREQ_     weight     weight     weight
+
+               1                         00        49      150.490     151.0     14.8241
+               2                A        01        15      153.467     155.0     14.6427
+               3                B        01        17      151.706     151.0     11.2903
+               4                C        01        17      146.647     148.0     17.8499
+               5    Female               10        15      151.867     155.0      8.9910
+               6    Male                 10        34      149.882     149.5     16.8555
+               7    Female      A        11         7      149.714     148.0      6.5756
+               8    Female      B        11         6      150.500     154.0      9.4393
+               9    Female      C        11         2      163.500     163.5     10.6066
+              10    Male        A        11         8      156.750     161.0     19.1143
+              11    Male        B        11        11      152.364     150.0     12.5720
+              12    Male        C        11        15      144.400     144.0     17.6101
+
+______________________________________________________________________________________________________
+
+                                        Grand Mean Statistics
+
+                                                            mean_     median_    stddev_
+             Obs    GENDER    GROUP    _TYPE_    _FREQ_     weight     weight     weight
+
+              1                          00        49      150.490      151      14.8241
+
+______________________________________________________________________________________________________
+
+                                         Statistics by Gender
+
+                                                            mean_     median_    stddev_
+             Obs    GENDER    GROUP    _TYPE_    _FREQ_     weight     weight     weight
+
+              1     Female               10        15      151.867     155.0      8.9910
+              2     Male                 10        34      149.882     149.5     16.8555
+
+______________________________________________________________________________________________________
+
+                                         Statistics by Group
+
+                                                            mean_     median_    stddev_
+             Obs    GENDER    GROUP    _TYPE_    _FREQ_     weight     weight     weight
+
+              1                 A        01        15      153.467      155      14.6427
+              2                 B        01        17      151.706      151      11.2903
+              3                 C        01        17      146.647      148      17.8499
+
+______________________________________________________________________________________________________
+
+                                    Statistics by Gender and Group
+
+                                                            mean_     median_    stddev_
+             Obs    GENDER    GROUP    _TYPE_    _FREQ_     weight     weight     weight
+
+              1     Female      A        11         7      149.714     148.0      6.5756
+              2     Female      B        11         6      150.500     154.0      9.4393
+              3     Female      C        11         2      163.500     163.5     10.6066
+              4     Male        A        11         8      156.750     161.0     19.1143
+              5     Male        B        11        11      152.364     150.0     12.5720
+              6     Male        C        11        15      144.400     144.0     17.6101
